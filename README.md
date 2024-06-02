@@ -10,7 +10,9 @@ Output: The name of the identified person.
 ### 2. Data Collection
 Dataset: Collect a dataset of images or video frames of the people you want to recognize. Ensure the dataset includes images from various angles.
 Annotations: Label the images with the names of the people.
-
+#### Data Collection - the process 
+Sources: Use publicly available datasets like LFW (Labelled Faces in the Wild), or collect your own data.
+Storage: Organize the data into directories named after the identities
 ### 3. Data Preprocessing
 Face Detection: Use a face detection algorithm (like MTCNN or OpenCV's Haar Cascades) to detect faces in the images.
 Face Alignment: Align the detected faces to a standard orientation.
