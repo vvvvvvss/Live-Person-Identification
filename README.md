@@ -37,7 +37,7 @@ Optimization: Optimize the model for speed and accuracy, potentially using techn
 Real-time Detection: Capture frames from CCTV and pass through the detection, alignment, and recognition pipeline.  
 Optimization: Use libraries like TensorRT for optimizing inference.  
 
-Tools and Libraries  
+**Tools and Libraries**  
 TensorFlow/Keras: For building and training models.  
 OpenCV: For image processing.  
 MTCNN: For face detection.  
